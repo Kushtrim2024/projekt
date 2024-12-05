@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/78132f542b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Reservierung</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="/Index.html"><img src="/images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="dropdown">
+          <i class="fa-solid fa-bars"></i>
+          <ul class="dropdown-menu">
+            <li><a href="/Index.html">Home</a></li>
+            <li><a href="Index.html#Speisekarte">Speisekarte</a></li>
+            <li><a href="Index.html#Veranstaltungen">Veranstaltungen / Catering</a></li>
+            <li><a href="Index.html#Fotogalerie">Fotogalerie</a></li>
+            <li><a href="reservierung.html">Reservierung</a></li>
+            <li><a href="kontakt.html">Kontakt/Anfahrt</a></li>
+          </ul>
+        </div>
+        <nav>
+          <ul class="menu">
+              <li><a href="/Index.html">Home</a></li>
+              <li><a href="Index.html#Speisekarte">Speisekarte</a></li>
+              <li><a href="Index.html#Veranstaltungen">Veranstaltungen / Catering</a></li>
+              <li><a href="Index.html#Fotogalerie">Fotogalerie</a></li>
+              <li><a href="reservierung.html">Reservierung</a></li>
+              <li><a href="kontakt.html">Kontakt/Anfahrt</a></li>
+            </ul>
+        </nav>
+      </header>
+      <main>
+        <form>
+            <h2>Reservierungsanfrage
+            </h2>
+            <p><span>Bitte beachten Sie, dass eine Reservierung erst durch eine Bestätigung unsererseits wirksam wird!</span></p>
+            <fieldset>
+            <div class="form-group">
+              <label for="datum">Datum *</label>
+              <input type="date" name="datum id="datum" placeholder="mm/dd/yy" required />
+              <label for="zeit">Uhrzeit * </label>
+              
+              <input type="time" name="zeit" id="zeit" placeholder="Uhrzeit" required />
+              <label for="nummer">Anzahl Personen *</label>
+              <input type="number" name="nummer" id="nummer" min="1" placeholder="Anzahl Personen" required />
+            </div>
+            </fieldset>
+            <fieldset>
+                <h4>Ihre Kontakdaten:</h4>
+            <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" name="name" id="name" required>
+              <label for="email">E-Mail-Adresse *</label>
+              <input type="email" name="email" id="email" required />
+              <label for="phone">
+                Telefon *
+              </label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+              <label for="textarea">Ihre Nachricht</label>
+              <textarea name="textarea" id="textarea" rows="8"></textarea>
+            </div>
+         </fieldset>
+         <fieldset>
+         <input type="checkbox" name="checkbox" id="checkbox" required>* Ich stimme zu, dass meine Angaben aus der Reservierungsanfrage zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an uns widerrufen.
+        </fieldset>
+        <input type="submit" value="Senden" />
+       
+            </div>
+          </form>
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="home">
+            <ul>
+              <li><a href="/Index.html">Home</a></li>
+            <li><a href="#Speisekarte">Speisekarte</a></li>
+            <li><a href="#Veranstaltungen">Veranstaltungen / Catering</a></li>
+            <li><a href="#Fotogalerie">Fotogalerie</a></li>
+            <li><a href="reservierung.html">Reservierung</a></li>
+            <li><a href="kontakt.html">Kontakt/Anfahrt</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Öffnungszeiten:</h3>
+            <ul>
+              <li>Mo – Di: 17:00 – 22:00 Uhr</li>
+              <li>Mi – Do: 15:00 – 22:00 Uhr</li>
+              <li>Freitags geschlossen</li>
+              <li>Sa: 11:00 – 23:00 Uhr</li>
+              <li>So: 10:00 – 22:00 Uhr</li>
+              <li>Feiertags: 10:00 – 22:00 Uhr</li>
+            </ul>
+          </div>
+          <div class="adresse">
+            <h3>Adresse:</h3>
+            <ul>
+              <li>Affelterbacher Str. 25</li>
+              <li>71462 Ludwigsburg</li>
+              <li>Telefon:07141-79 32 911</li>
+              <li>Email:info@struga-grillhaus.de</li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-media">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <h4>&copy; 2024 Struga Grillhaus - Balkanspezialitäten</h4>
+         <!-- Back to Top Button -->
+<a href="#top" class="back-to-top" title="Go to Top">
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
+      </footer>
+</body>
+</html>

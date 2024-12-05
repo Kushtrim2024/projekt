@@ -1,14 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/78132f542b.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Struga Grillhaus</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/Index.html"><img src="/images/logo.png" alt="logo" /></a>
+      </div>
+
+      <div class="dropdown">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="dropdown-menu">
+          <li><a href="/Index.html">Home</a></li>
+          <li><a href="#Speisekarte">Speisekarte</a></li>
+          <li><a href="#Veranstaltungen">Veranstaltungen / Catering</a></li>
+          <li><a href="#Fotogalerie">Fotogalerie</a></li>
+          <li><a href="reservierung.html">Reservierung</a></li>
+          <li><a href="kontakt.html">Kontakt/Anfahrt</a></li>
+        </ul>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="/Index.html">Home</a></li>
+          <li><a href="#Speisekarte">Speisekarte</a></li>
+          <li><a href="#Veranstaltungen">Veranstaltungen / Catering</a></li>
+          <li><a href="#Fotogalerie">Fotogalerie</a></li>
+          <li><a href="reservierung.html">Reservierung</a></li>
+          <li><a href="kontakt.html">Kontakt/Anfahrt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Herzlich Willkommen im Grillhaus Struga</h2>
+        <p>
+          Wer leckere Balkan-Küche und deftige Fleischspezialitäten vom Grill
+          liebt, ist bei uns an der richtigen Adresse. Wir verwöhnen Sie in
+          rustikaler, gediegener Atmosphäre mit täglich frisch für Sie
+          zubereiteten Balkan-typischen Suppen, Vorspeisen, Pasteten, sowie
+          Fisch- und Fleischgerichten.
+        </p>
+        <p><span>Wir freuen uns darauf Sie verwöhnen zu dürfen.</span></p>
+      </section>
+      <h2 id="Speisekarte">Speisekarte</h2>
+      <section class="section-2">
+        <div class="container">
+          <div class="category">
+            <h4>Vorspeise</h4><i class="fa-solid fa-angle-right desktop-icon"></i>
+            <i class="fa-solid fa-angle-down mobile-icon"></i>
+            <a href="#image1"><img src="./images/Vorspeise.jpg" alt="Vorspeise" /></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="category">
+            <a href="#image2"><img src="./images/Salate.jpg" alt="Salate" /></a>
+            <i class="fa-solid fa-angle-up mobile-icon"></i>
+            <i class="fa-solid fa-angle-left desktop-icon"></i>
+            <h4>Salate</h4>
+          </div>
+        </div>
+        <div class="container">
+          <div class="category">
+            <h4>Grill</h4>
+            <i class="fa-solid fa-angle-down mobile-icon"></i><i class="fa-solid fa-angle-right desktop-icon"></i>
+            <a href="#image3"><img src="./images/meat.jpg" alt="Grill" /></a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="category">
+            <a href="#image4"><img src="./images/trilece.jpg" alt="Dessert" /></a>
+            <i class="fa-solid fa-angle-up mobile-icon"></i>
+            <i class="fa-solid fa-angle-left desktop-icon"></i>
+            <h4>Dessert</h4>
+          </div>
+        </div>
+        <div class="container">
+          <div class="category">
+            <h4>Getränke</h4><i class="fa-solid fa-angle-right desktop-icon"></i><i class="fa-solid fa-angle-down mobile-icon"></i>
+            <a href="#image5">
+              <img src="./images/getränke.jpg" alt="getränke" /></a>
+          </div>
+        </div>
+        <!-- Image Modals -->
+<div class="modal" id="image1">
+  <div class="modal-content">
+      <a href="#" class="close">&times;</a>
+      <img src="/images/vorspeise.png" alt="Image 1">
+  </div>
+</div>
+
+<div class="modal" id="image2">
+  <div class="modal-content">
+      <a href="#" class="close">&times;</a>
+      <img src="/images/salate.png" alt="Image 2">
+  </div>
+</div>
+
+<div class="modal" id="image3">
+  <div class="modal-content">
+      <a href="#" class="close">&times;</a>
+      <img src="/images/grill.png" alt="Image 3">
+  </div>
+</div>
+<div class="modal" id="image4">
+  <div class="modal-content">
+      <a href="#" class="close">&times;</a>
+      <img src="/images/desert.png" alt="Image 4">
+  </div>
+</div>
+
+<div class="modal" id="image5">
+  <div class="modal-content">
+      <a href="#" class="close">&times;</a>
+      <img src="/images/getränke.png" alt="Image 5">
+  </div>
+</div>
+      </section>
+      <h2 id="Veranstaltungen">Veranstaltungen / Catering</h2>
+      <section>
+        <div class="section-organisation">
+          <p>
+            Das Struga Grillhaus bietet Ihnen gern die Möglichkeit für
+            Veranstaltungen Ihrer Wahl z.B.
+          </p>
+          <div class="veranstaltungen">
+            <ul>
+              <li>Taufe</li>
+              <li>Hochzeit</li>
+              <li>Geburtstage</li>
+              <li>Firmenfeier</li>
+            </ul>
+
+            <img
+              class="img-veranstaltungen"
+              src="./images/Veranstaltungen.jpg"
+              alt="Veranstaltungen"
+            />
+          </div>
+          <a href="reservierung.html"
+            ><button>Zum Reservierungsformular</button></a
+          >
+        </div>
+      </section>
+
+      <h2 id="Fotogalerie">Fotogalerie</h2>
+      <section class="section-4">
+        <div class="container-1">
+          <img src="./images/grill.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/chicken.jpg" alt="chicken" />
+        </div>
+        <div class="container-1">
+          <img src="./images/image1.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/image3.jpg" alt="img" />
+        </div>
+        <div class="container-1"><img src="./images/meat.jpg" alt="img" /></div>
+        <div class="container-1">
+          <img src="./images/Salate.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/steak.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/adana-kebab.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/Vorspeise.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/kebap1.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/trilece.jpg" alt="img" />
+        </div>
+        <div class="container-1">
+          <img src="./images/dessert.jpg" alt="img" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="home">
+          <ul>
+            <li><a href="/Index.html">Home</a></li>
+            <li><a href="#Speisekarte">Speisekarte</a></li>
+            <li><a href="#Veranstaltungen">Veranstaltungen / Catering</a></li>
+            <li><a href="#Fotogalerie">Fotogalerie</a></li>
+            <li><a href="reservierung.html">Reservierung</a></li>
+            <li><a href="kontakt.html">Kontakt/Anfahrt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Öffnungszeiten:</h3>
+          <ul>
+            <li>Mo – Di: 17:00 – 22:00 Uhr</li>
+            <li>Mi – Do: 15:00 – 22:00 Uhr</li>
+            <li>Freitags geschlossen</li>
+            <li>Sa: 11:00 – 23:00 Uhr</li>
+            <li>So: 10:00 – 22:00 Uhr</li>
+            <li>Feiertags: 10:00 – 22:00 Uhr</li>
+          </ul>
+        </div>
+        <div class="adresse">
+          <h3>Adresse:</h3>
+          <ul>
+            <li>Affelterbacher Str. 25</li>
+            <li>71462 Ludwigsburg</li>
+            <li>Telefon:07141-79 32 911</li>
+            <li>Email:info@struga-grillhaus.de</li>
+          </ul>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <h4>&copy; 2024 Struga Grillhaus - Balkanspezialitäten</h4>
+      <!-- Back to Top Button -->
+      <a href="#top" class="back-to-top" title="Go to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </footer>
+  </body>
 </html>
